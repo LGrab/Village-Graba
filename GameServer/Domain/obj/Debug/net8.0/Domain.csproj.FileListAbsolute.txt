@@ -1,0 +1,17 @@
+C:\GitHub\Village-Graba\GameServer\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\GitHub\Village-Graba\GameServer\Domain\bin\Debug\net8.0\Domain.dll
+C:\GitHub\Village-Graba\GameServer\Domain\bin\Debug\net8.0\Domain.pdb
+C:\GitHub\Village-Graba\GameServer\Domain\bin\Debug\net8.0\Interfaces.dll
+C:\GitHub\Village-Graba\GameServer\Domain\bin\Debug\net8.0\Interfaces.pdb
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.dll
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\Domain.pdb
+C:\GitHub\Village-Graba\GameServer\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\GitHub\Village-Graba\GameServer\Domain\bin\Debug\net8.0\Domain.Interfaces.dll
+C:\GitHub\Village-Graba\GameServer\Domain\bin\Debug\net8.0\Domain.Interfaces.pdb

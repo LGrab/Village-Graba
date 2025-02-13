@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Domain.Interfaces": "1.0.0",
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Domain.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Domain.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Interfaces.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
+      },
+      "Technology.Json/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Technology.Json.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Technology.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Domain.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Interfaces/Domain.Interfaces.csproj",
+      "msbuildProject": "../Domain.Interfaces/Domain.Interfaces.csproj"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
+    },
+    "Technology.Json/1.0.0": {
+      "type": "project",
+      "path": "../Technology.Json/Technology.Json.csproj",
+      "msbuildProject": "../Technology.Json/Technology.Json.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Domain >= 1.0.0",
+      "Interfaces >= 1.0.0",
+      "Technology.Json >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PC HP\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\GitHub\\Village-Graba\\GameServer\\Technology.Http\\Technology.Http.csproj",
+      "projectName": "Technology.Http",
+      "projectPath": "C:\\GitHub\\Village-Graba\\GameServer\\Technology.Http\\Technology.Http.csproj",
+      "packagesPath": "C:\\Users\\PC HP\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Village-Graba\\GameServer\\Technology.Http\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\PC HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\GitHub\\Village-Graba\\GameServer\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\GitHub\\Village-Graba\\GameServer\\Domain\\Domain.csproj"
+            },
+            "C:\\GitHub\\Village-Graba\\GameServer\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\GitHub\\Village-Graba\\GameServer\\Interfaces\\Interfaces.csproj"
+            },
+            "C:\\GitHub\\Village-Graba\\GameServer\\Technology.Json\\Technology.Json.csproj": {
+              "projectPath": "C:\\GitHub\\Village-Graba\\GameServer\\Technology.Json\\Technology.Json.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\PC HP\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
